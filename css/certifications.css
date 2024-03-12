@@ -1,0 +1,25 @@
+.certificationimage {
+    background-color: #990000;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 0px lightslategray;
+}
+
+.certificationgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.certificationgrid .certitem {
+    align-items: center;
+    text-align: center;
+}
+
+.certificationgrid .certitem img {
+    width: 445.2px;
+    height: 344px;
+}
