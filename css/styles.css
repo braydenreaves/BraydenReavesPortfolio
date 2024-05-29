@@ -14,7 +14,7 @@ figcaption {
 
 .navbar {
     overflow: hidden;
-    background-color: lightslategray;
+    background-color: var(--crimson);
     position: fixed;
     top: 0;
     width: 100%;
@@ -27,17 +27,17 @@ figcaption {
 .navbar a {
     text-align: center;
     font-size: 15px;
-    color: black;
+    color: lightgray;
 }
 
 .navbar a:hover {
     background-color: lightgray;
-    color: lightslategray;
+    color: var(--crimson);
 }
 
 .navbar a.active {
     background-color: lightgray;
-    color: lightslategray;
+    color: var(--crimson);
 }
 
 .body {
@@ -130,8 +130,8 @@ figcaption {
 
 .textcontainer h1 {
     font-size: 50px;
-    color: lightslategray;
-    text-shadow: 2.5px 2.5px 0px var(--crimson);
+    color: var(--crimson);
+    text-shadow: 2.5px 2.5px 0px lightslategray;
 }
 
 .projectcontainer {
@@ -143,8 +143,8 @@ figcaption {
     font-size: 50px;
     text-align: center;
     margin-top: 10px;
-    color: lightslategray;
-    text-shadow: 2.5px 2.5px 0px var(--crimson);
+    color: var(--crimson);
+    text-shadow: 2.5px 2.5px 0px lightslategray;
 }
 
 .btowncontainer {
@@ -168,6 +168,40 @@ figcaption {
 
 }
 
-.btownlink {
+.MoreInfo {
+    overflow: hidden;
+    top: 0;
     text-align: center;
+}
+
+.MoreInfo a {
+    text-align: center;
+    font-size: 15px;
+    color: lightgray;
+    background-color: var(--crimson);
+}
+
+.MoreInfo a:hover {
+    background-color: lightslategray;
+    color: var(--crimson);
+}
+
+
+.MoreInfo2 {
+    overflow: hidden;
+    top: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.MoreInfo2 a {
+    text-align: center;
+    font-size: 15px;
+    color: lightgray;
+    background-color: var(--crimson);
+}
+
+.MoreInfo2 a:hover {
+    background-color: lightslategray;
+    color: var(--crimson);
 }
