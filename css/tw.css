@@ -1,5 +1,5 @@
 .typewrite {
-    color: lightslategray !important;
+    color: var(--crimson) !important;
     font-weight: 500 !important;
     font-family: 'Montserrat', sans-serif !important;
 }
@@ -20,7 +20,7 @@ h1 {
     margin: 0;
     font-size: 4.25rem;
     text-decoration: none;
-    text-shadow: 2.5px 2.5px 0px var(--crimson);
+    text-shadow: 2.5px 2.5px 0px lightslategray;
 
     a:link {
         text-decoration: none
